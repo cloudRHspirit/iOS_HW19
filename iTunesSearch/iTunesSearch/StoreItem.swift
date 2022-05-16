@@ -1,10 +1,3 @@
-//
-//  StoreItem.swift
-//  iTunesSearch
-//
-//  Created by Roman Hural on 11.05.2022.
-//
-
 import Foundation
 
 struct StoreItem: Codable {

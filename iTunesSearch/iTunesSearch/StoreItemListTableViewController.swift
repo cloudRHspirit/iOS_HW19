@@ -54,7 +54,6 @@ class StoreItemListTableViewController: UITableViewController {
         cell.artworkImage = nil
         
         imageLoadTasks[indexPath] = Task {
-            
             do {
                 let images = try await instStoreItemController.fetchImage(from: item.artworkURL)
                 cell.artworkImage = images
